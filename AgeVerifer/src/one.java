@@ -4,8 +4,8 @@ import java.util.Scanner;
 		System.out.println("Hello,");
 		System.out.println("How old are you?");
 		Scanner S=new Scanner(System.in);
-		int one=S.nextInt();
-		if(one >15 )
+		int age=S.nextInt();
+		if(age >15 )
 		{
 		System.out.println("You can enter");
 		System.out.println("PLease click the following link to enter");
